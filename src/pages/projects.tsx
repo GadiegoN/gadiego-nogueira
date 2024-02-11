@@ -42,7 +42,7 @@ export function Projects() {
                                                 <p className="text-xl font-bold">{repo.name}</p>
                                                 <p className="font-mono">{repo.description}</p>
                                             </div>
-                                            <Button variant="default" asChild>
+                                            <Button variant="outline" asChild>
                                                 <a target="_blank" href={repo.homepage}>Ver Projeto</a>
                                             </Button>
                                         </div>
