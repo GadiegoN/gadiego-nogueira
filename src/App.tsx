@@ -8,7 +8,7 @@ import { Projects } from "./pages/projects";
 export function App() {
 
   return (
-    <div className="bg-background overflow-x-hidden">
+    <div className="overflow-x-hidden bg-background text-foreground dark">
       <Header />
 
       <div id="home" className="flex flex-col items-center p-10">
